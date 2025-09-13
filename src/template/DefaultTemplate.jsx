@@ -1,7 +1,7 @@
 export default function DefaultTemplate({children}) {
     return(
         <>
-            <main className="w-full h-full flex flex-col items-center justify-center bg-slate-300 pt-8">
+            <main className="w-full h-full flex flex-col items-center justify-center bg-slate-300 pt-8 font-[outfit]">
                 {children}
 
                 <div class="attribution p-12 ">
