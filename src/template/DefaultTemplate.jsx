@@ -1,7 +1,9 @@
+import '@fontsource/outfit'
+
 export default function DefaultTemplate({children}) {
     return(
         <>
-            <main className="w-full h-full flex flex-col items-center justify-center bg-slate-300 pt-8 font-[outfit]">
+            <main className="w-full h-full flex flex-col items-center justify-center bg-slate-300 pt-8 font-['Outfit']">
                 {children}
 
                 <div class="attribution p-12 ">
